@@ -110,8 +110,7 @@ def sta_cnn_pre(xtfb):
     model_mlp = load_model(model_path_mlp)
     model_cnn = load_model(model_path_cnn)
     model_svm = joblib.load(model_path_svm)
-    
-    
+      
     df=xtfb.xdat10
     g10 = xtfb.gid10
 
