@@ -86,7 +86,6 @@ def main_get(timStr='',nday=2):
 
 
 
-
 def main_bt(timStr='',nday=2):
     #
     #1---init.sys
